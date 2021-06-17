@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Non-OS mmWave SDK Demo",
+		"categories": ["Labs"],
+		"mainCategories": [],
+		"subCategories": ["Labs"],
+		"resourceType": "categoryInfo",
+		"description": "This lab demonstrates the implementation of the mmWave SDK OOB Demo for xWR16xx without OS. The lab provides full source code and a CCS project and runs on the TI mmWave sensor xWR16xx EVM.",
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+	},
+
+    {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- MSS",
+        "description": "Non-OS mmWave SDK Demo MSS",
+        "categories": ["Labs", "Non-OS mmWave SDK Demo"],
+        "mainCategories": [],
+        "resourceType": "project.ccs",
+        "location": "../../lab0006_nonos_oob_16xx/src/mmwNonOS_mss.projectspec",
+        "subCategories": ["Labs", "Non-OS mmWave SDK Demo"],
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },	
+
+    {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- DSS",
+        "description": "Non-OS mmWave SDK Demo DSS",
+        "categories": ["Labs", "Non-OS mmWave SDK Demo"],
+        "mainCategories": [],
+        "resourceType": "project.ccs",
+        "location": "../../lab0006_nonos_oob_16xx/src/mmwNonOS_dss.projectspec",
+        "subCategories": ["Labs", "Non-OS mmWave SDK Demo"],
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },	
+
+	
+	{
+		"name": "User's Guide",
+		"resourceType": "file",
+		"mainCategories": [],
+		"subCategories": ["Labs", "Non-OS mmWave SDK Demo"],
+		"categories": ["Labs", "Non-OS mmWave SDK Demo"],
+		"devices": ["AWR1642"],
+		"tags": [ "TBD" ],
+		"location": "../../lab0006_nonos_oob_16xx/docs/oob_nonOS_16xx_user_guide.pdf",
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+	},
+
+	{
+		"name": "Release Notes",
+		"resourceType": "file",
+		"mainCategories": [],
+		"subCategories": ["Labs", "Non-OS mmWave SDK Demo"],
+		"categories": ["Labs", "Non-OS mmWave SDK Demo"],
+		"devices": ["AWR1642"],
+		"tags": [ "TBD" ],
+		"location": "../../lab0006_nonos_oob_16xx/docs/Release_Notes.pdf",
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+	}
+]

@@ -1,0 +1,13 @@
+a:not([href]) {
+    cursor: pointer;
+}
+
+.imagepreview {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+	cursor: zoom-in;
+}

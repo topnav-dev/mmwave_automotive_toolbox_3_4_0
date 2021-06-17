@@ -1,0 +1,513 @@
+File not found: ../../../../..../common/src/dpc/objectdetectionandtracking/staticobjdetdsp/src/objectdetection.c
+In project: area_scanner/68xx_area_scanner/src/68xx_area_scanner_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr14xx/r4f_linker.cmd
+In project: level_sensing/14xx-4k-fft/pjt/4k_fft_lab.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr14xx/r4f_linker.cmd
+In project: level_sensing/14xx_high_accuracy/pjt/high_accuracy_14xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: level_sensing/64xx_high_accuracy/pjt/high_accuracy_64xx.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetdsp/src/objectdetection.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/18xx_long_range_people_det_dss.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetdsp/src/objectdetection.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/68xx_long_range_people_det_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/config_edma_util.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/config_hwa_util.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/data_path.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/main.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/mmw.cfg
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/sensor_mgmt.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/post_processing.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/mmw_cli.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/mss_mmw_linker.cmd
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/rx_ch_bias_measure.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr14xx/mmw/mmw_lvds_stream.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwDemo_monitor.c
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr14xx/r4f_linker.cmd
+In project: out_of_box_demo/14xx_mmwave_sdk/mmw_mss_14xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_main.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_mmw.cfg
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_mmw.h
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_config_edma_util.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_config_edma_util.h
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_data_path.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_data_path.h
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/rx_ch_bias_measure.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: TI_PRODUCTS_DIR/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft16x16/c64P/gen_twiddle_fft16x16.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: TI_PRODUCTS_DIR/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft32x32/c64P/gen_twiddle_fft32x32.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_resources.h
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_lvds_stream.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/dss/dss_lvds_stream.h
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwDemo_monitor.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwDemo_monitor.h
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr16xx/c674x_linker.cmd
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_dss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/dss/dss_main.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/dss/data_path.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/dss/mmw_dss.cfg
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/dss/mmw_dss_linker.cmd
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdethwa/src/objectdetection.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr18xx/c674x_linker.cmd
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/mss/mss_main.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_mss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/mss/mss_mmw.cfg
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_mss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/mss/mss_mmw.h
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_mss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/mss/cli.c
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_mss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr16xx/mmw/mss/mss_mmw_linker.cmd
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_mss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr16xx/r4f_linker.cmd
+In project: out_of_box_demo/16xx_mmwave_sdk/mmw_mss_16xx.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/dss/dss_main.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/dss/mmw_dss.cfg
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/dss/mmw_dss_linker.cmd
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdetdsp/src/objectdetection.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdetrangehwa/src/objdetrangehwa.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/mss/mss_main.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/mss/mmw_cli.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/mss/mmw_lvds_stream.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/mss/mmw_mss.cfg
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr68xx/mmw/mss/mmw_mss_linker.cmd
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: out_of_box_demo/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdetrangehwa/src/objdetrangehwa.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/mss/mss_main.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/mss/mmw_cli.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/mss/mmw_lvds_stream.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/mss/mmw_mss.cfg
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr18xx/mmw/mss/mmw_mss_linker.cmd
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr18xx/r4f_linker.cmd
+In project: out_of_box_demo/18xx_mmwave_sdk/src/mmwave_sdk_18xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetdsp/src/objectdetection.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/68xx_traffic_monitoring_dss.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetdsp/src/objectdetection.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/18xx_traffic_monitoring_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr14xx/r4f_linker.cmd
+In project: vital_signs/14xx_vital_signs/pjt/vitalSigns_lab.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: vital_signs/64xx_vital_signs/src/vital_signs_68xx_dss_aop.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: vital_signs/64xx_vital_signs/src/vital_signs_68xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: vital_signs/64xx_vital_signs/src/vital_signs_68xx_mss_aop.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: vital_signs/64xx_vital_signs/src/vital_signs_68xx_mss.projectspec
+
+File not found: ../../../../..../common/src/dpc/objectdetectionandtracking/staticobjdetdsp/src/objectdetection.c
+In project: automated_doors_and_gates/68xx_automated_doors/src/68xx_automated_doors_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: vital_signs/68xx_vital_signs/src/vital_signs_68xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: vital_signs/68xx_vital_signs/src/vital_signs_68xx_dss_aop.projectspec
+
+File not found: ../../../../..../common/src/dpc/objectdetectionandtracking/objdetrangehwa/src/objdetrangehwa.c
+In project: area_scanner/68xx_area_scanner/src/68xx_area_scanner_mss.projectspec
+
+File not found: ../../../../..../common/src/utils/tracker/tracker_utils.c
+In project: area_scanner/68xx_area_scanner/src/68xx_area_scanner_mss.projectspec
+
+File not found: ../../../../..../common/src/utils/tracker/tracker_utils.h
+In project: area_scanner/68xx_area_scanner/src/68xx_area_scanner_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: area_scanner/68xx_area_scanner/src/68xx_area_scanner_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: area_scanner/68xx_area_scanner/src/68xx_area_scanner_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: area_scanner/68xx_area_scanner/src/68xx_area_scanner_mss.projectspec
+
+File not found: ../../../../..../common/src/dpc/objectdetectionandtracking/objdetrangehwa/src/objdetrangehwa.c
+In project: automated_doors_and_gates/68xx_automated_doors/src/68xx_automated_doors_mss.projectspec
+
+File not found: ../../../../..../common/src/utils/tracker/tracker_utils.c
+In project: automated_doors_and_gates/68xx_automated_doors/src/68xx_automated_doors_mss.projectspec
+
+File not found: ../../../../..../common/src/utils/tracker/tracker_utils.h
+In project: automated_doors_and_gates/68xx_automated_doors/src/68xx_automated_doors_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: automated_doors_and_gates/68xx_automated_doors/src/68xx_automated_doors_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: automated_doors_and_gates/68xx_automated_doors/src/68xx_automated_doors_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: automated_doors_and_gates/68xx_automated_doors/src/68xx_automated_doors_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: gesture_recognition/68xx_multi_gesture_and_motion_det/src/multi_gesture_68xx_aop_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: gesture_recognition/68xx_multi_gesture_and_motion_det/src/multi_gesture_68xx_aop_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: gesture_recognition/68xx_multi_gesture_and_motion_det/src/multi_gesture_68xx_ods_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: gesture_recognition/68xx_multi_gesture_and_motion_det/src/multi_gesture_68xx_ods_dss.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetrangehwa/src/objdetrangehwa.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/18xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/18xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/18xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/18xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: vital_signs/68xx_vital_signs/src/vital_signs_68xx_mss.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetrangehwa/src/objdetrangehwa.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/68xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/68xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/68xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: long_range_people_detection/68xx_long_range_people_det/src/68xx_long_range_people_det_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdethwa/src/objectdetection.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/data_path.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/main.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_cli.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_lvds_stream.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw.cfg
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mss_mmw_linker.cmd
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/board/antenna_geometry.c
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: out_of_box_demo/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.h
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.h
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_error.h
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdethwa/src/objectdetection.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/data_path.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/main.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_cli.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_lvds_stream.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw.cfg
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mss_mmw_linker.cmd
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: out_of_box_demo/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa_es1.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.h
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa_es1.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa_es1.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.h
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa_es1.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_error.h
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa_es1.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: out_of_box_demo/68xx_ods_point_cloud_demo/src/ods_point_cloud_68xx_hwa_es1.projectspec
+
+File not found: ../../../../..../common/src/dpc/capon3d/src/objectdetection.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/src/radarProcess.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/src/copyTranspose.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_angleEst.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_DopplerEst.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_heatmapEst.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_staticRemoval.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_utils.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_rnEstInv.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_staticHeatMapEst.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/detection/CFAR/src/RADARDEMO_detectionCFAR.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/detection/CFAR/src/RADARDEMO_detectionCFAR_priv.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/utilities/cycle_measure.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/utilities/radarOsal_malloc.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/postProcessing/matrixFunc/src/MATRIX_cholesky.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpu/capon3d/modules/postProcessing/matrixFunc/src/MATRIX_cholesky_dat.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_dss.projectspec
+
+File not found: ../../../../..../common/src/dpc/objdetrangehwa/src/objdetrangehwa.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_mss.projectspec
+
+File not found: ../../../../..../common/src/dpu/trackerproc_capon/src/trackerproc_3d.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_mss.projectspec
+
+File not found: ../../../../..../common/src/dpu/rangeprochwa/src/rangeprochwa.c
+In project: people_counting/68xx_3D_people_counting/src/68xx_3D_people_count_mss.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetrangehwa/src/objdetrangehwa.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/18xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/18xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/18xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/18xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_INDUSTRIAL_TOOLBOX_INSTALL_DIR/labs/common/src/dpc/objectdetectionandtracking/objdetrangehwa/src/objdetrangehwa.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/68xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/68xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/68xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: traffic_monitoring/18xx_68xx_traffic_monitoring/src/68xx_traffic_monitoring_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: vital_signs/68xx_vital_signs/src/vital_signs_68xx_mss_aop.projectspec
+

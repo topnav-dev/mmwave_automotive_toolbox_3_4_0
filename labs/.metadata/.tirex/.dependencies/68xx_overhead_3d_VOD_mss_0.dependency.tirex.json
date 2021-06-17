@@ -1,0 +1,34 @@
+[
+    {
+        "files": [
+            "+mss/mss_main.c -> mss/mss_main.c",
+            "+mss/vod3D_cli.c -> mss/vod3D_cli.c",
+            "+mss/vod3D_mss.h -> mss/vod3D_mss.h",
+            "+mss/vod3D_mss.cfg -> mss/vod3D_mss.cfg",
+            "+mss/r4f_linker.cmd -> mss/r4f_linker.cmd",
+            "+mss/vod3D_mss_linker.cmd -> mss/vod3D_mss_linker.cmd",
+            "+common/cplx_types.h -> common/cplx_types.h",
+            "+common/mmwdemo_adcconfig.c -> common/mmwdemo_adcconfig.c",
+            "+common/mmwdemo_adcconfig.h -> common/mmwdemo_adcconfig.h",
+            "+common/mmwdemo_rfparser.c -> common/mmwdemo_rfparser.c",
+            "+common/mmwdemo_rfparser.h -> common/mmwdemo_rfparser.h",
+            "+common/vod3D_config.h -> common/vod3D_config.h",
+            "+common/vod3D_hwres.h -> common/vod3D_hwres.h",
+            "+common/vod3D_output.h -> common/vod3D_output.h",
+            "+common/swpform.h -> common/swpform.h",
+            "+common/dpc/objdetrangehwa/src/objdetrangehwa.c -> common/dpc/objdetrangehwa/src/objdetrangehwa.c",
+            "+common/dpc/objdetrangehwa/objdetrangehwa.h -> common/dpc/objdetrangehwa/objdetrangehwa.h",
+            "+common/dpc/objdetrangehwa/include/objdetrangehwainternal.h -> common/dpc/objdetrangehwa/include/objdetrangehwainternal.h",
+            "+common/dpc/capon3d/objectdetection.h -> common/dpc/capon3d/objectdetection.h",
+            "+common/dpu/capon3d/radarProcess.h -> common/dpu/capon3d/radarProcess.h",
+            "+common/dpu/capon3d/modules/detection/CFAR/api/RADARDEMO_detectionCFAR.h -> common/dpu/capon3d/modules/detection/CFAR/api/RADARDEMO_detectionCFAR.h",
+            "+common/dpu/capon3d/modules/utilities/radarOsal_malloc.h -> common/dpu/capon3d/modules/utilities/radarOsal_malloc.h",
+            "+common/dpu/capon3d/modules/DoA/CaponBF2D/api/RADARDEMO_aoaEst2DCaponBF.h -> common/dpu/capon3d/modules/DoA/CaponBF2D/api/RADARDEMO_aoaEst2DCaponBF.h",
+            "+common/dpu/rangeprochwa/src/rangeprochwa.c -> common/dpu/rangeprochwa/src/rangeprochwa.c",
+            "+common/dpu/rangeprochwa/rangeproc_common.h -> common/dpu/rangeprochwa/rangeproc_common.h",
+            "+common/dpu/rangeprochwa/rangeprochwa.h -> common/dpu/rangeprochwa/rangeprochwa.h",
+            "+common/dpu/rangeprochwa/include/rangeproc_internal.h -> common/dpu/rangeprochwa/include/rangeproc_internal.h",
+            "+common/dpu/rangeprochwa/include/rangeprochwa_internal.h -> common/dpu/rangeprochwa/include/rangeprochwa_internal.h"
+        ]
+    }
+]

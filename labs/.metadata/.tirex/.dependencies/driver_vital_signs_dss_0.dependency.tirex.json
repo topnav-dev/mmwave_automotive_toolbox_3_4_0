@@ -1,0 +1,20 @@
+[
+    {
+        "files": [
+            "+dss_main.c -> dss_main.c",
+            "+dss_mmw.cfg -> dss_mmw.cfg",
+            "+dss_mmw.h -> dss_mmw.h",
+            "+dss_config_edma_util.c -> dss_config_edma_util.c",
+            "+dss_config_edma_util.h -> dss_config_edma_util.h",
+            "+dss_data_path.c -> dss_data_path.c",
+            "+dss_data_path.h -> dss_data_path.h",
+            "+dss_vitalSignsDemo_utilsFunc.c -> dss_vitalSignsDemo_utilsFunc.c",
+            "+dss_vitalSignsDemo_utilsFunc.h -> dss_vitalSignsDemo_utilsFunc.h",
+            "+../common/mmw_config.h -> common/mmw_config.h",
+            "+../common/mmw_messages.h -> common/mmw_messages.h",
+            "+../common/mmw_output.h -> common/mmw_output.h",
+            "+dss_mmw_linker.cmd -> dss_mmw_linker.cmd",
+            "+c674x_linker.cmd -> c674x_linker.cmd"
+        ]
+    }
+]

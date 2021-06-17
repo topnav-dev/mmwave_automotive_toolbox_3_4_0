@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Evaluate with mmWave Sensor Experiments</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js" integrity="sha256-Bhi6GMQ/72uYZcJXCJ2LToOIcN3+Cx47AZnq/Bw1f7A=" crossorigin="anonymous"></script>
+  <script src="scripts/toolbox.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css" integrity="sha256-/Z28yXtfBv/6/alw+yZuODgTbKZm86IKbPE/5kjO/xY=" crossorigin="anonymous" />
+
+
+	<link rel="stylesheet" type="text/css" href="./styles/app.css">
+</head>
+	<body>
+		<div class="ui inverted vertical masthead center aligned segment">
+	    <div class="ui text container">
+	      <h1 class="ui inverted icon header">
+	        <i class="inverted circular travel icon"></i>
+					Industrial Toolbox for mmWave Sensors
+	      </h1>
+	      <h3>
+	      	<span class="red">Discover</span>
+	      	<i class="right chevron icon divider"></i>
+	      	<span class="teal">Evaluate</span>
+	      	<i class="right chevron icon divider"></i>
+	      	<span class="grey">Design</span>
+	      </h3>
+	    </div>
+	  </div>
+
+		<div class="ui main container vertical segment">
+			<div class="ui inverted grid">
+
+				<div class="sixteen wide column">
+					<div class="ui icon message">
+
+					  <i class="close icon"></i>
+					  <i class="announcement icon"></i>
+					  <div class="content">
+					    <div class="header">
+					      Looking for Industrial demos from CES 2018?
+					    </div>
+					    <p>Evaluate TI's mmWave sensors through the awesome demos from CES 2018. <a href="#featured-content">Check out the featured content!</a></p>
+					  </div>
+					</div>
+				</div>
+		  </div>
+
+	      <h2 class="ui horizontal divider red header">
+				  Experiments
+				</h2>
+
+				<div class="ui middle aligned divided grid">
+	        <div class="row">
+	          <div class="fourteen wide column">
+	          	The experiments are ran by the TI mmWave team to verify a variety of general use-cases and test mmWave sensors’ capability to sense objects under different environments. Each experiment contains explanation and methodology to help you understand the testing conditions and recreate the experiment yourself.
+	          </div>
+	          <div class="center aligned two wide column">
+	          	<div class="ui statistics">
+							  <div class="red statistic">
+							    <div class="value">
+							      6
+							    </div>
+							    <div class="label">
+							      Experiments
+							    </div>
+							  </div>
+							</div>
+	          </div>
+	        </div>
+	      </div>
+
+
+				<h2 class="ui horizontal divider teal header">
+				  Labs
+				</h2>
+
+				<div class="ui middle aligned divided grid">
+	        <div class="row">
+	        	<div class="center aligned two wide column">
+	          	<div class="ui statistics">
+							  <div class="teal statistic">
+							    <div class="value">
+							      16
+							    </div>
+							    <div class="label">
+							      Labs
+							    </div>
+							  </div>
+							</div>
+	          </div>
+	          <div class="fourteen wide column">
+	          	The labs are source code examples on how to get started with the mmWave sensors.  Each lab provides detailed instructions to follow along while evaluating. Source code of each lab can be loaded directly into Code Composer Studio through the integrated view in TI Resource Explorer.
+	          </div>
+	        </div>
+	      </div>
+
+
+				<h2 class="ui horizontal divider grey header">
+				  Chirp Database
+				</h2>
+
+				<div class="ui middle aligned divided grid">
+	        <div class="row">
+	          <div class="fourteen wide column">
+	          	The chirp database is an easy-to-search repository of different mmWave RF front-end configurations that the TI mmWave team has calculated for our demos and experiments. These chirp designs are available for you to get started designing quickly and can be loaded directly into mmWave Sensing Estimator.
+	          </div>
+	          <div class="center aligned two wide column">
+	          	<div class="ui statistics">
+							  <div class="grey statistic">
+							    <div class="value">
+							      9
+							    </div>
+							    <div class="label">
+							      Chirps
+							    </div>
+							  </div>
+							</div>
+	          </div>
+	        </div>
+	      </div>
+
+	      <a id="featured-content"></a><h2 class="ui horizontal divider header">
+				  Featured Content
+				</h2>
+
+	      <div class="ui four link doubling cards">
+				  <div class="card">
+				  	<div class="blurring dimmable image">
+				      <div class="ui dimmer">
+				        <div class="content">
+				          <div class="center">
+				            <div class="ui primary button" onclick="load_link('Labs/Fluid Level Transmitter')">Learn more!</div>
+				          </div>
+				        </div>
+				      </div>
+				      <img src="./images/featured/level_transmitter.png">
+				    </div>
+				    <div class="content">
+				      <div class="header">Fluid Level Transmitter</div>
+				      <div class="description">
+				        Use TI's high-accuracy range algorithm to measure the volume of liquid in a tank.
+				      </div>
+				    </div>
+				    <div class="extra content">
+				      <span class="right floated">
+				        Works with <strong>IWR1443 EVM</strong>
+				      </span>
+				    </div>
+				  </div>
+
+				  <div class="card">
+				    <div class="blurring dimmable image">
+				      <div class="ui dimmer">
+				        <div class="content">
+				          <div class="center">
+				            <div class="ui primary button" onclick="load_link('Labs/People Counting')">Learn more!</div>
+				          </div>
+				        </div>
+				      </div>
+				      <img src="./images/featured/people_counting.png">
+				    </div>
+				    <div class="content">
+				      <div class="header">People Counting</div>
+				      <div class="description">
+				        Use TI mmWave sensor to track and count multiple people simultaneously.
+				      </div>
+				    </div>
+				    <div class="extra content">
+				      <span class="right floated">
+				        Works with <strong>IWR1642 EVM</strong>
+				      </span>
+				    </div>
+				  </div>
+
+
+				  <div class="card">
+				    <div class="blurring dimmable image">
+				      <div class="ui dimmer">
+				        <div class="content">
+				          <div class="center">
+				            <div class="ui primary button" onclick="load_link('Labs/Autonomous Robotics with ROS')">Learn more!</div>
+				          </div>
+				        </div>
+				      </div>
+				      <img src="./images/featured/robotics.png">
+				    </div>
+				    <div class="content">
+				      <div class="header">Autonomous Robotics</div>
+				      <div class="description">
+				        Use TI mmWave sensor to be used with popular mapping and navigation libraries in the Robot Operating System (ROS) environment.
+				      </div>
+				    </div>
+				    <div class="extra content">
+				      <span class="right floated">
+				        Works with <strong>IWR1443 EVM</strong>
+				      </span>
+				    </div>
+				  </div>
+
+				  <div class="card">
+				    <div class="blurring dimmable image">
+				      <div class="ui dimmer">
+				        <div class="content">
+				          <div class="center">
+				            <div class="ui primary button" onclick="load_link('Labs/Gesture Recognition - Twirl Example')">Learn more about twirl gesture!</div>
+				            <div class="ui primary button" style="margin-top: 20px;" onclick="load_link('Labs/Gesture Recognition - Swipe Example')">Learn more about swipe gesture!</div>
+				          </div>
+				        </div>
+				      </div>
+				      <img src="./images/featured/gesture.png">
+				    </div>
+				    <div class="content">
+				      <div class="header">Gesture Control</div>
+				      <div class="description">
+				        Use TI mmWave sensor unique capability to measure range, velocity, and angle data to detect natural gestures. 
+				      </div>
+				    </div>
+				    <div class="extra content">
+				      <span class="right floated">
+				        Works with <strong>IWR1443 EVM</strong>
+				      </span>
+				    </div>
+				  </div>
+				</div>
+	  </div>
+
+	  <div class="ui inverted vertical footer segment">
+	    <h4 class="ui center aligned grey header">v2.0.0</h4>
+	  </div>
+	</body>
+
+  <script>
+  	$('.message .close')
+		  .on('click', function() {
+		    $(this)
+		      .closest('.message')
+		      .transition('fade')
+		    ;
+		  });
+
+		$('.link.cards .image').dimmer({
+		  on: 'hover'
+		});
+  </script>
+</html>

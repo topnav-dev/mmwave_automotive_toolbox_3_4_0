@@ -1,0 +1,82 @@
+[
+
+      {
+        "name": "Overhead Mount Vehicle Occupancy Detection",
+        "description": "This lab demonstrates the use of mmWave technology to accurately detect slow motion characteristic of a life form.",
+        "resourceType": "categoryInfo",
+        "categories": ["Labs", "*mmWave Incabin Sensing*"],
+        "mainCategories": [],
+        "subCategories": ["Labs", "*mmWave Incabin Sensing*"],
+        "location": "../../incabinsensing/overhead_mount_occupancy/docs/overhead_VOD_user_guide.html",
+        "devices": ["AWR1642", "IWR1642", "AWR1843", "IWR6843"],
+    "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+      {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "name": "User's Guide",
+        "description": "HTML User's Guide",
+        "resourceType": "file",
+        "categories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "mainCategories": [],
+        "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "location": "../../incabinsensing/overhead_mount_occupancy/docs/overhead_VOD_user_guide.html",
+        "devices": ["AWR1642", "IWR1642", "AWR1843", "IWR6843"],
+    "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+      {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "name": "PC GUI",
+        "description": "MATLAB GUI",
+        "resourceType": "file.executable",
+        "categories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "mainCategories": [],
+        "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "location": "../../incabinsensing/overhead_mount_occupancy/gui/overhead_vod_visualizer.exe",
+        "devices": ["AWR1642", "IWR1642", "AWR1843", "IWR6843"],
+    "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+      {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- MSS 68xx",
+        "description": "Overhead Mount Vehicle Occupancy Detection MSS 68xx",
+        "resourceType": "project.ccs",
+        "categories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "mainCategories": [],
+        "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "location": "../../incabinsensing/overhead_mount_occupancy/src/68xx_overhead_3d_VOD_mss.projectspec",
+        "devices": ["IWR6843"],
+    "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+      {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- DSS 68xx",
+        "description": "Overhead Mount Vehicle Occupancy Detection DSS 68xx",
+        "resourceType": "project.ccs",
+        "categories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "mainCategories": [],
+        "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "location": "../../incabinsensing/overhead_mount_occupancy/src/68xx_overhead_3d_VOD_dss.projectspec",
+        "devices": ["IWR6843"],
+    "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+      {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "name": "Release Notes",
+        "description": "Overhead Mount Vehicle Occupancy Detection Release Notes",
+        "resourceType": "file",
+        "categories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "mainCategories": [],
+        "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Overhead Mount Vehicle Occupancy Detection"],
+        "location": "../../incabinsensing/overhead_mount_occupancy/docs/overhead_VOD_release_notes.html",
+        "devices": ["AWR1642", "IWR1642", "AWR1843", "IWR6843"],
+    "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    }
+
+]

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MMWAVE SDK Demo - 68xx HWA Version Lab User's Guide</title>
+</head>
+
+<!-- START PRE -->
+<link rel="stylesheet" href="../../../../.metadata/.html/scripts/strapdown/v/0.2/fonts/ubuntu-regular-woff.css"/>
+<link rel="stylesheet" href="../../../../.metadata/.html/scripts/strapdown/v/0.2/fonts/glyphicons-halflings-regular.css"/>
+<link rel="stylesheet" href="../../../../.metadata/.html/scripts/strapdown/v/0.2/themes/united2.min.css"/>
+<link rel="stylesheet" href="../../../../.metadata/.html/scripts/strapdown/v/0.2/themes/bootstrap-responsive.min.css"/>
+<link rel="stylesheet" href="../../../../.metadata/.html/scripts/strapdown/v/0.2/strapdown.css"/>
+<link rel="stylesheet" href="../../../../.metadata/.html/styles/link.css"/>
+<!-- END PRE -->
+
+<xmp style="display:none;" class="col-xs-6">
+
+
+Overview of MMWAVE SDK Demo - 68xx HWA Version
+===========
+
+This is the mmWave SDK out-of-box demo lab for the TI AWR68xx EVM. Run this TI AWR68xx EVM out-of-box demo to view processed TI mmWave sensor data in configurable plots using the web-based mmWave Demo Visualizer.
+
+**NOTE**: This version of the SDK out-of-box demo is for AWR68xx EVM but only uses the on-chip Hardware FFT acclerator (HWA) and does not utilize the on-chip c674x DSP. In this User Guide many of labels show xWR64xx but the demo is compatible with the AWR68xx device. The name xwr64xx is reserved for future devices without the on-chip c674x DSP core.
+
+<img src="images/mmwave_demo_visualizer_plots.png" width="600" class="img-responsive"/>
+
+<a name="quickstart"></a>  
+Quickstart
+===========
+
+The quickstart uses:
+* Precompiled mmw demo binary for flashing the device using Uniflash. The pre-compiled binary for mmWave SDK Out-of-box demo is available at `<MMWAVE_SDK_INSTALL_DIR>\packages\ti\demo\xwr64xx\mmw\xwr64xx_mmw_demo.bin`
+* **NOTE: the binary is labeled xwr64xx but is compatible with xwr68xx devices**
+* Web based mmWaveDemoVisualizer GUI available at [https://dev.ti.com/mmwavedemovisualizer](https://dev.ti.com/mmwavedemovisualizer) 
+
+
+1. Hardware and Software Requirements
+-----------
+
+### Hardware
+
+ Item                     | Details     
+--------------------------|-----------------
+  Device                  |  [mmWave Carrier Board](http://www.ti.com/tool/MMWAVEICBOOST) and [AWR6843ISK ES2.0 Antenna Board](http://www.ti.com/tool/AWR6843ISK). These two boards combined are referred to as the mmWave Starter Kit
+                          |  Note: The rest of this document will refer to the above board combination as <b>EVM</b> . 
+  Computer                |  Windows 7 or 10 PC with Google Chrome Browser and TI Cloud Agent Extension installed.
+  Micro USB Cable         |  Provided with the [mmWave Carrier Board](http://www.ti.com/tool/MMWAVEICBOOST)
+  Power Supply            |  5V, 3A with 2.1-mm barrel jack (center positive). The power supply can be wall adapter style or a battery pack with a USB to barrel jack cable.
+
+[[r! AWR6843 ES2.0 Only
+ This lab is only compatible with ES2.0 version of AWR6843. Check the device version on your AWR6843ISK using the on-chip device markings as shown below.
+ 
+1. If line 4 reads `678A`, you have an ES2 device. In this case, this lab is compatible with your EVM.
+2. If line 4 reads `60 GHZi`, you have an older ES1 device. In this case, the lab is NOT compatible with your EVM. ES2 AWR6843ISK boards are orderable from the EVM link above. 
+
+<img src="images/iwr6843_silicon_revision.png" width="500"/>
+
+]]
+
+
+### Software
+
+ Tool                       | Version                   | Download Link     
+----------------------------|---------------------------|--------
+  TI mmWave SDK             |  3.4.x.x                 | [TI mmWave SDK 3.4](http://software-dl.ti.com/ra-processors/esd/MMWAVE-SDK/latest/index_FDS.html) and all the related tools are required to be installed as specified in the [mmWave SDK release notes](http://software-dl.ti.com/ra-processors/esd/MMWAVE-SDK/latest/exports/mmwave_sdk_release_notes.pdf)
+  Uniflash                  |  Latest                   | Uniflash tool is used for flashing TI mmWave Radar devices. [Download offline tool](http://www.ti.com/tool/UNIFLASH) or use the [Cloud version](https://dev.ti.com/uniflash/#!/)   
+  
+  [[+d Expand for mmWave Automotive Toolbox installation without Code Composer Studio
+  1. Navigate to the [TI Resource Explorer](http://dev.ti.com/tirex/explore/node?node=AFeCagqbt7.hu2lHOXE4eA__AocYeEd__LATEST)
+  2. Click the download button. A .zip file will be downloaded.
+
+  3. Navigate to the .zip file. Right click and then select **Extract All...**. Do NOT use the default path. The path must be `C:\ti`.
+  
+  <img src="images/common/extract.png" width="400"/>
+  4. Verify installation by navigating to view the MMWAVE SDK Demo - 68xx HWA Version Lab files at `C:\ti\<mmwave_automotive_toolbox_install_dir>\mmwave_sdk_ccs_projects\mmwave_sdk_3_4\68xx_mmwave_sdk_hwa`
+  +]]  
+  
+  [[+d Expand for mmWave Automotive Toolbox installation using Code Composer Studio
+  1. Open CCS 
+  2. In the top toolbar, navigate to **View &rarr; Resource Explorer** 
+  3. In the **Resource Explorer** side panel (not the main panel with "Welcome to.."), navigate to Automotive Toolbox at **Software &rarr; mmWave Sensors &rarr; Automotive Toolbox - &lt;ver&gt;**
+  4. With Automotive Toolbox selected, the main panel should show the Automotive toolbox landing page. Click on the **Download icon** in the right corner of panel.
+ 
+  <img src="images/common/automotive_toolbox_download.png" width="400"/>
+  5. Verify installation by navigating to view the MMWAVE SDK Demo - 68xx HWA Version Lab files at `C:\ti\<mmwave_automotive_toolbox_install_dir>\mmwave_sdk_ccs_projects\mmwave_sdk_3_4\68xx_mmwave_sdk_hwa`
+ +]] 
+  
+<a name="physical_setup"></a>  
+
+2a. Physical Setup using AWR6843ISK as standalone module
+-----------  
+
+<img src="images/common/Modular_mode.jpg" width="350" class="img-responsive"/> 
+
+1. Plug in micro-usb using the connector shown above. 
+
+
+
+2b. Physical Setup using AWR6843ISK and MMWAVEICBOOST Board
+-----------  
+1. Setup the Carrier Board using the S1 switch combination as shown below.
+
+   <img src="images/common/mmwaveicboost_standalone_mode.jpg" width="300"/> <img src="images/common/mmwaveicboost_standalone_jumpers.png" width="300"/>
+
+2. Connect the AWR6843ISK to the MMWAVEICBOOST board and mount the EVM vertically as shown below:
+  
+ <img src="images/common/6843_evm_connectors.png" width="500" class="img-responsive"/> 
+
+3. Plug in micro-usb and power supply to EVM using the connectors shown above. 
+
+
+<a name="flash_the_evm"></a>  
+3. Flash the EVM
+-----------
+* Power on the EVM if using a 5V/3A power supply.
+* Flash the following image using **Uniflash**
+ 
+ 
+ Image                    | Location    
+--------------------------|------------
+  Meta Image 1    |  `<MMWAVE_SDK_INSTALL_DIR>\packages\ti\demo\xwr64xx\mmw\xwr64xx_mmw_demo.bin`
+ 
+[[+d Expand for help using Uniflash 
+* Connect the EVM to your PC and check the COM ports in **Windows Device Manager**
+  * The EVM exports two virtual COM ports as shown below:
+    * XDS110 Class Application/User UART (COM UART): Used for passing configuration data and firmware to the EVM
+    * XDS110 Class Auxiliary Data Port (COM AUX): Used to send processed radar data output
+
+	<img src="images/common/com_port.png" width="300"/>
+{{b Note the COM UART and COM AUX port numbers, as they will be used later for flashing and running the lab.}}
+* **If using MMWAVEICBOOST: ** Put the EVM in flashing mode by connecting jumpers on **SOP0** and **SOP2** as shown in the image. Then power cycle the EVM with **SW2** (NRST).
+
+
+* **Otherwise: ** Put the EVM in flashing mode by setting the switch for **SOP2** in the ON position as shown in the image. Then power cycle the EVM with **SW2** (RST).
+
+
+<img src="images/common/SW_header_jumpers_1.jpg" width="600"/>
+
+
+  
+  <img src="images/common/mmwaveicboost_sop_jumpers.jpg" width="300"/> <img src="images/common/mmwaveicboost_sw2_nrst.jpg" width="300"/>
+* Open the **UniFlash tool** ([Download offline tool](http://www.ti.com/tool/UNIFLASH) or use the [Cloud version](https://dev.ti.com/uniflash/#!/) )
+  * In the New Configuration section, locate and select the appropriate device (AWR6843)
+  * Click Start to proceed
+
+ <img src="images/common/uniflash_device_select.png" width="400"/>
+  
+
+* Click the **Settings & Utilities** tab. Under setup, fill the **COM Port** text box with the Application/User UART COM port number (COM UART) noted earlier.  
+* In the **Program** tab, browse and locate the images (.bin file) as specified [above](#flash_the_evm).
+
+ <img src="images/common/uniflash.png" width="600"/> 
+
+* **Power cycle** the device and click on **Load Images**
+	
+	[[g! Successful Flash Procedure
+UniFlash’s console should indicate: [SUCCESS] Program Load completed successfully
+]]
+
+* Power off the board and either **remove only SOP2 jumper** or **set the SOP2 switch** OFF.
+
+  [[y SOP2 Removed/Switched?
+Ensure that the jumper has been removed and the EVM power cycled. This puts the board back in functional mode.  
+]]
++]]
+
+<a name="run_the_lab"></a>
+4. Run the Lab
+-----------
+### 1. GUI Setup 
+
+* Power up the EVM and connect it to the Windows PC with the provided USB cable (make sure that the SOP2 jumper is removed). Mount the setup vertically as shown in [Physical Setup](#physical_setup)
+* Using Google Chrome, navigate to the following URL: https://dev.ti.com/mmWaveDemoVisualizer  
+* If prompted, follow the on-screen instructions for installing TI Cloud Agent (this is need the first time on a new PC)
+* In the GUI menu, select Options &rarr; Serial Port
+* In the serial port window, enter the appropriate port in each of the drop down menus based on your port numbers from the [Flash the EVM](#flash_the_evm) section 
+* Click on Configure to connect the GUI to the EVM. The GUI Status bar should show <b>Connected:</b> <img src="images/mmwave_demo_visualizer_connected.png" width="30" height="20"/>
+
+  <img src="images/mmwave_demo_visualizer_ports.png" width="800"/>
+
+
+### 2. Running the Demo   
+-----------
+* On the Configure Tab, select the appropriate mmWave SDK and the **xWR64XX device** from the Platform dropdown menu
+* **NOTE**: Since we are using the HWA version of this lab, the **xWR64XX device** mus be selected.
+* Use the available sliders to create the desired configuration.
+ * You can also use the presets available in the Desirable Configuration drop-down list.
+ * Additional details about the configuration parameters can be found in the [mmWave Demo Visualizer User Guide](http://www.ti.com/lit/pdf/swru529)
+
+ <img src="images/mmwave_demo_visualizer_setup.png" width="550"/>
+
+* Select the desired plots under Plot Selection (e.g. Scatter Plot, Range Azimuth Plot)     
+* When ready to send the configuration, click on Send Config To mmWave Device
+ <img src="images/mmwave_demo_visualizer_plot_selection.png" width="550"/>
+
+* Click on the Plots tab to view the plots that were selected to be shown
+ <img src="images/mmwave_demo_visualizer_plots.png" width="600" />
+
+* Move a highly reflective object in front of the EVM and see how the demo responds.
+ * You can use the Real Time Tuning controls shown below to adjust CFAR thresholds, Modify Field of View and enable or disable Peak grouping in real time.
+  <img src="images/mmwave_demo_visualizer_rt_tuning.png" width="550"/>
+  
+* This concludes the Quick Start Section 
+
+
+Developer's Guide
+===========
+
+Build the Firmware from Source Code
+-----------
+<a name="software_requirements"></a>
+### 1. Software Requirements
+
+ Tool                       | Version                   | Download Link    
+----------------------------|---------------------------|--------------
+  TI mmWave SDK             |  3.4.x.x                 |  [TI mmWave SDK 3.4](http://software-dl.ti.com/ra-processors/esd/MMWAVE-SDK/latest/index_FDS.html) and all the related tools are required to be installed as specified in the mmWave SDK release notes
+  Code Composer Studio      |  8.3.1                    |  [Code Composer Studio v8.3.1](http://processors.wiki.ti.com/index.php/Download_CCS)
+  mmWave Automotive Toolbox |  Latest          | Download and install the [toolbox.](http://dev.ti.com/tirex/explore/node?node=AFeCagqbt7.hu2lHOXE4eA__AocYeEd__LATEST)
+
+### 2. Import Lab Project
+
+The mmWave SDK Out-of-box demo Lab CCS Project is available under on TI Resource Explorer under mmWave Sensors &rarr; mmWave Automotive Toolbox. You can import the project in your CCS workspace using TI Resource Explorer in CCS or using a browser. Both methods of importing projects are defined in the Expand boxes below.
+
+* Start CCS and setup workspace as desired. 
+* Import the project below to CCS using either TI Resource Explorer in CCS or CCS Import Projectspecs method:
+   * **mmwave_sdk_68xx_hwa** 
+
+[[+d Expand for details on importing via TI Resource Explorer in CCS
+* In the top toolbar, navigate to **View &rarr; Resource Explorer** 
+* In the **Resource Explorer** side panel (not the main panel with "Welcome to.."), navigate to **Software &rarr; mmWave Sensors &rarr; Automotive Toolbox - &lt;ver&gt; &rarr; Labs &rarr; mmWave SDK Demo - 68xx HWA Version**
+* Under the expanded **mmWave SDK Demo - 68xx HWA Version** folder, there should be a CCS project named **mmwave_sdk_68xx_hwa**. 
+* Click on the project, which should open the project in the right main panel, and then click on the Import to IDE button <img src="images/common/import_ide_icon.png" width="40"/>.
++]] 
+
+[[+d Expand for details on importing via CCS Import Projectspecs
+* In the top toolbar, navigate to **Project &rarr; Import CCS Projects...** 
+* With the **Select search-directory** option enabled, click **Browse...**, navigate to the **68xx_mmwave_sdk_hwa** folder at `C:\ti\<mmwave_automotive_toolbox_install_dir>\mmwave_sdk_ccs_projects\mmwave_sdk_3_4\68xx_mmwave_sdk_hwa`, and then click **OK**.
+* Under **Discovered projects**, select **mmwave_sdk_68xx_hwa** then click **Finish**. 
++]]
+
+[[g! Successful Import to IDE
+  After using either method, the mmwave_sdk_68xx_mss project should be visible in **CCS Project Explorer**
+  <img src="images/project_impt.png" width="400"/> 
+]] 
+  
+[[b! Project Workspace
+When importing projects to a workspace, a copy is created in the workspace. It is important to note that the copy in user's workspace is the one that gets built and all modifications will only be implemented for the workspace copy. The original project downloaded in mmWave Automotive Toolbox is not modified.
+]]
+  
+
+### 3. Build the Lab
+
+With the **mmwave_sdk_68xx_hwa**  project selected in **Project Explorer**, right click on the project and select **Rebuild Project**. 
+  <img src="images/rebuild_project.png" width="400"/> 
+
+{{y Selecting Rebuild instead of Build ensures that the project is always re-compiled. This is especially important in case the previous build failed with errors.}}
+
+[[g! Successful Project Build
+In the **Project Explorer** panel, navigate to and expand **mmwave_sdk_68xx_hwa &rarr; Debug** directory. On successfull build, the following files should appear in the **Debug** folder:
+* xwr64xx_mmw_demo.bin  (this is the flashable binary used for deployment mode) 
+* xwr64xx_mmw_mss.xer4f (this is the Cortex R4F binary used for CCS debug mode)
+]]
+
+
+[[r! Build Fails with Errors
+If the build fails with errors, please ensure that all the [prerequisites](#software_requirements) are installed as mentioned in the mmWave SDK release notes.
+]]
+
+[[b! Note
+As mentioned in the [Quickstart](#quickstart) section, pre-built binary files, both .xer4f and .bin, are provided in mmwave SDK under C:\ti\mmwave_sdk_03_04_xx_xx\packages\ti\demo\xwr64xx\mmw\.
+]]
+
+### 4. Execute the Lab
+
+There are two ways to execute the compiled code on the EVM:
+* **Deployment mode**: In this mode, the EVM boots autonomously from flash and starts running the bin image
+    * Using Uniflash, flash the **xwr64xx_mmw_demo.bin** found at `<PROJECT_WORKSPACE_DIR>\mmwave_sdk_68xx_hwa\Debug\xwr64xx_mmw_demo.bin`  
+	* The procedure to flash the EVM is the same as detailed in the [Flash the EVM](#flash_the_evm) section. 
+* **Debug mode**: This mode is is used for downloading and running the executable (.xer4f) from CCS. This mode enables JTAG connection with CCS while lab is running; useful during development and debugging
+     
+  
+[[+d Expand for help with Debug mode:
+The CCS debug firmware (provided with the mmWave SDK) needs to be flashed once on the EVM. 
+* CCS Debug method is enabled by flashing the CCS Debug Firmware (provided with the mmWave SDK) using the methods covered in the Quickstart [Flash the Device](#1-flash-the-evm) section.
+* Use the following image instead       
+
+Image           | Location     | Comment        
+--------------------------|----------------------------|------------------------
+  Meta Image 1    |  `C:\ti\mmwave_sdk_<ver>\packages\ti\utils\ccsdebug\xwr68xx_ccsdebug.bin` | Provided with the mmWave SDK  
+  
+  
+   
+After the CCS debug firmware has been flashed, connect the EVM to CCS
+  * Create a target configuration (skip to "Open the target..." if config already created previously in another lab for xwr68xx)
+    * Go to **File &rarr; New &rarr; New Target Configuration File**
+	* Specify an appropriate file name (ex: AWR68xx.ccxml) and check "**Use shared location**". Click **Finish**.
+
+
+  * In the configuration editor window:
+    * Select **Texas Instruments XDS110 USB Debug Probe** for Connection
+    * Select **AWR6843** in the **Board or Device** text box.
+    * Press the **Save** button to save the target configuration.
+    * [Optional]: Press the **Test Connection** button to check the connection with the board.
+
+
+  * Open the target configuration window by going to **View &rarr; Target Configurations**.
+    * Under **User Defined** configurations the target configuration previously created should appear.
+      * Right click on the target configuration and select **Launch Select Configuration**. The target configuration will launch in the **Debug Window**.	
+        <img src="images/common/target_config.png" width="450"/>
+
+  * Select the **Texas Instruments XDS110 USB Debug probe/Cortex_R4_0** and then right click and select **Connect Target**
+
+    <img src="images/common/connect_target.png" width="600"/>
+	
+  * Load the binary
+    * With the **Cortex_R4_0** target connected, click on the **Cortex_R4_0** target and then click **Load** button in the toolbar.  <img src="images/common/load_program_icon.png" width="40"/>
+ 
+        <img src="images/common/load_program.png" width="600"/>
+	
+   * In the **Load Program** dialog, press the **Browse Project** button .
+   * Select **xwr64xx_mmw_mss.xer4f** found at `<PROJECT_WORKSPACE_DIR>\mmwave_sdk_68xx_hwa\Debug\xwr64xx_mmw_mss.xer4f` and press **Ok**.
+    * Press **Ok** again in the **Load Program** dialog.
+	
+  
+  * Run the binary
+    * Select **Texas Instruments XDS110 USB Debug probe/Cortex_R4_0**, press the **Run/Resume** button <img src="images/common/run_resume_icon.png" width="30"/>
+    * The program should start executing and generate console output as shown.
+	
+        <img src="images/ccsdebug_console.png" width="600"/>
+ 
+    
+	[[g! Successful Run Binary
+	If binary is running correctly, the Console will include the “CLI is operational” message which indicates that the program is ready and waiting for the sensor configuration.
+	]]
++]]
+
+After running the lab using either method, the demo firmware should be executing on the EVM and waiting for sensor configuration. After this point, please follow the instructions provided in the [Quickstart](#run_the_lab) section to bring-up the mmWave Demo Visualizer for sending the configuration and visualizing the results. 
+
+Need More Help?
+===========	
+* Additional resources in the documentation of the mmWave SDK (note hyperlinks will only work if the mmWave SDK has been installed on PC):
+* [mmWave SDK User's Guide located at `<mmwave_sdk_install_dir>/docs/mmwave_sdk_user_guide.pdf`](http://software-dl.ti.com/ra-processors/esd/MMWAVE-SDK/latest/exports/mmwave_sdk_user_guide.pdf)
+  * [mmWave SDK Release Notes located at `<mmwave_sdk_install_dir>/docs/mmwave_sdk_release_notes.pdf`](http://software-dl.ti.com/ra-processors/esd/MMWAVE-SDK/latest/exports/mmwave_sdk_release_notes.pdf)
+	
+* Search for your issue or post a new question on the [mmWave E2E forum](https://e2e.ti.com/support/sensor/mmwave_sensors/f/1023)
+
+
+</xmp>
+
+<link rel="stylesheet" href="../../../../.metadata/.html/scripts/highlight/styles/zenburn.css"/>
+<script src="../../../../.metadata/.html/scripts/strapdown/vendor/jquery-1.11.2.min.js"></script>
+<script src="../../../../.metadata/.html/scripts/strapdown/vendor/bootstrap.min.js"></script>
+<script src="../../../../.metadata/.html/scripts/highlight/highlight.pack.js"></script>
+<script src="../../../../.metadata/.html/scripts/strapdown/v/0.2/strapdown.js"></script>
+<script src="../../../../.metadata/.html/scripts/toolbox.js"></script>
+<script src="../../../../.metadata/.html/scripts/toolbox_fixes.js"></script>
+</html>

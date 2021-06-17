@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projectSpec>
+    <project
+        name="overhead_3d_vod_68xx_dss"
+        deviceFamily="C6000"
+        isTargetManual="false"
+        device="IWR6843"
+        endianness="little"
+        cgtVersion="8.3.3"
+        connection="common/targetdb/connections/TIXDS110_Connection.xml"
+        toolChain="TI"
+        linkerCommandFile="vod3D_dss_linker.cmd"
+        preannouncebuildStep="Deleting old out file"
+        preBuildStep="rm -f &quot;${PROJECT_ROOT}/Debug/overhead_3d_vod_68xx_dss.bin&quot;"
+        postannouncebuildStep="Preparing BIN format image"
+        postBuildStep="${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/out2rprc/out2rprc.exe overhead_3d_vod_68xx_dss.xe674 overhead_3d_vod_68xx_dss.bin"
+        description="Overhead 3D VOD 68xx - dss"
+        launchWizard="false"
+        configurations="Debug, Release"
+        compilerBuildOptions="
+        -mv6740 -mf3 -mo -O3
+        -I&quot;${PROJECT_ROOT}&quot;
+        -I&quot;${PROJECT_ROOT}/common&quot;
+        -I&quot;${PROJECT_ROOT}/dss&quot;
+        -I${CG_TOOL_ROOT}/include
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/demo/utils
+        -I${TI_PRODUCTS_DIR}/mathlib_c674x_3_1_2_1/packages
+        -I${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages
+        -I${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft16x16_imre/c64P
+        -I${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft32x32/c64P
+        -I${TI_PRODUCTS_DIR}/dsplib_c674x_3_4_0_0/packages
+        -DSOC_XWR68XX
+        -DSUBSYS_DSS
+        -DPLATFORMES2
+        -DMMWAVE_L3RAM_NUM_BANK=6
+        -DMMWAVE_SHMEM_TCMA_NUM_BANK=0
+        -DMMWAVE_SHMEM_TCMB_NUM_BANK=0
+        -DMMWAVE_SHMEM_BANK_SIZE=0x20000
+        -DMMWAVE_L3_CODEMEM_SIZE=0x100
+        -DDOWNLOAD_FROM_CCS
+        -DDebugP_ASSERT_ENABLED
+        -D_LITTLE_ENDIAN
+        -DOBJDET_NO_RANGE
+        -DAPP_RESOURCE_FILE=&apos;&lt;&apos;common/vod3D_hwres.h&apos;&gt;&apos;
+        --gcc -g --diag_warning=225 --diag_error=10015 --diag_wrap=off --display_error_number --abi=eabi --obj_extension .oe674"
+        linkerBuildOptions="
+        -moverhead_3d_vod_68xx_dss.map -ooverhead_3d_vod_68xx_dss.xe674
+        -I&quot;${PROJECT_ROOT}&quot;
+        -I${CG_TOOL_ROOT}/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/mmwave/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/mmwavelink/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/dpm/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/alg/mmwavelib/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/crc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/soc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/osal/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/mailbox/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/edma/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/adcbuf/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/cbuff/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/hsiheader/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/mathutils/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/datapath/dpc/dpu/dopplerproc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/datapath/dpc/dpu/cfarcaproc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/datapath/dpedma/lib
+        -I${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/lib
+        -I${TI_PRODUCTS_DIR}/mathlib_c674x_3_1_2_1/packages/ti/mathlib/lib
+        -I${TI_PRODUCTS_DIR}/dsplib_c674x_3_4_0_0/packages/ti/dsplib/lib
+        -ldsplib.ae64P
+        -lmathlib.ae674
+        -llibmathutils.ae674
+        -llibsoc_xwr68xx.ae674
+        -llibosal_xwr68xx.ae674
+        -llibcrc_xwr68xx.ae674
+        -llibmailbox_xwr68xx.ae674
+        -llibmmwavelink_xwr68xx.ae674
+        -llibmmwave_xwr68xx.ae674
+        -llibedma_xwr68xx.ae674
+        -llibadcbuf_xwr68xx.ae674
+        -llibmmwavealg_xwr68xx.ae674
+        -llibcbuff_xwr68xx.ae674
+        -llibhsiheader_xwr68xx.ae674
+        -llibmathutils.ae674
+        -llibdpm_xwr68xx.ae674
+        -llibdpedma_hwa_xwr68xx.ae674
+        --define=MMWAVE_L3RAM_NUM_BANK=6
+        --define=MMWAVE_SHMEM_TCMA_NUM_BANK=0
+        --define=MMWAVE_SHMEM_TCMB_NUM_BANK=0
+        --define=MMWAVE_SHMEM_BANK_SIZE=0x20000
+        --reread_libs --diag_warning=225 --diag_error=10015 --diag_wrap=off --display_error_number --warn_sections --xml_link_info=xwr68xx_mmw_demo_dss_linkInfo.xml --ram_model --unused_section_elimination=on --disable_auto_rts -lrts6740_elf.lib">
+
+        <!-- Project properties -->
+        <property name="type" value="rtsc"/>
+        <property name="products" value="com.ti.rtsc.SYSBIOS:6.73.01.01;com.ti.MMWAVE_SDK:03.05.00.04"/>
+        <property name="xdcToolsVersion" value="3.50.08.24_core"/>
+        <property name="target" value="ti.targets.elf.C674"/>
+        <property name="platform" value="ti.platforms.c6x:IWR68XX:false:600"/>
+        <property name="endianness" value="little"/>
+        <property name="output_format" value="elf"/>
+        <property name="buildProfile" value="release"/>
+        <property name="configuroOptions" value="--compileOptions &quot;--enum_type=int &quot; "/>
+
+        <!-- Project files -->
+        <file path="dss/dss_main.c" targetDirectory="dss" excludeFromBuild="false" action="copy"/>
+        <file path="dss/vod3D_dss.h" targetDirectory="dss" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="dss/c674x_linker.cmd" targetDirectory="dss" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="dss/vod3D_dss_linker.cmd" targetDirectory="dss" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="dss/vod3D_dss.cfg" targetDirectory="dss" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <!-- Common Files -->
+        <file path="common/cplx_types.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/mmwdemo_adcconfig.c" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/mmwdemo_adcconfig.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/mmwdemo_error.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/mmwdemo_rfparser.c" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/mmwdemo_rfparser.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/swpform.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/vod3D_config.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/vod3D_hwres.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/vod3D_output.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <!-- DPU/DPC Files -->
+        <file path="common/dpc/capon3d/src/objectdetection.c" targetDirectory="common/dpc/capon3d/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpc/capon3d/objectdetection.h" targetDirectory="common/dpc/capon3d" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpc/capon3d/include/objectdetectioninternal.h" targetDirectory="common/dpc/capon3d/include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/src/radarProcess.c" targetDirectory="common/dpu/capon3d/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/src/copyTranspose.c" targetDirectory="common/dpu/capon3d/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+
+        <file path="common/dpc/objdetrangehwa/src/objdetrangehwa.c" targetDirectory="common/dpc/objdetrangehwa/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpc/objdetrangehwa/objdetrangehwa.h" targetDirectory="common/dpc/objdetrangehwa" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpc/objdetrangehwa/include/objdetrangehwainternal.h" targetDirectory="common/dpc/objdetrangehwa/include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+
+        <file path="common/dpu/rangeprochwa/src/rangeprochwa.c" targetDirectory="common/dpu/rangeprochwa/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/rangeprochwa/rangeproc_common.h" targetDirectory="common/dpu/rangeprochwa" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/rangeprochwa/rangeprochwa.h" targetDirectory="common/dpu/rangeprochwa" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/rangeprochwa/include/rangeproc_internal.h" targetDirectory="common/dpu/rangeprochwa/include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/rangeprochwa/include/rangeprochwa_internal.h" targetDirectory="common/dpu/rangeprochwa/include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <!-- Files needed by Capon DPU -->
+        <!-- AoA -->
+        <file path="common/dpu/capon3d/radarProcess.h" targetDirectory="common/dpu/capon3d" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/include/copyTranspose.h" targetDirectory="common/dpu/capon3d/include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/include/radarProcess_internal.h" targetDirectory="common/dpu/capon3d/include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF.c" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_priv.h" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_angleEst.c" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_heatmapEst.c" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_staticRemoval.c" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_utils.c" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_rnEstInv.c" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/src/RADARDEMO_aoaEst2DCaponBF_staticHeatMapEst.c" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/DoA/CaponBF2D/api/RADARDEMO_aoaEst2DCaponBF.h" targetDirectory="common/dpu/capon3d/modules/DoA/CaponBF2D/api" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <!-- CFAR -->
+        <file path="common/dpu/capon3d/modules/detection/CFAR/src/RADARDEMO_detectionCFAR.c" targetDirectory="common/dpu/capon3d/modules/detection/CFAR/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/detection/CFAR/src/RADARDEMO_detectionCFAR_priv.c" targetDirectory="common/dpu/capon3d/modules/detection/CFAR/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/detection/CFAR/src/RADARDEMO_detectionCFAR_priv.h" targetDirectory="common/dpu/capon3d/modules/detection/CFAR/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/detection/CFAR/src/relativeThrTab.c" targetDirectory="common/dpu/capon3d/modules/detection/CFAR/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/detection/CFAR/api/RADARDEMO_detectionCFAR.h" targetDirectory="common/dpu/capon3d/modules/detection/CFAR/api" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <!-- Utilities -->
+        <file path="common/dpu/capon3d/modules/utilities/cycle_measure.c" targetDirectory="common/dpu/capon3d/modules/utilities" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/utilities/cycle_measure.h" targetDirectory="common/dpu/capon3d/modules/utilities" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/utilities/radarOsal_malloc.c" targetDirectory="common/dpu/capon3d/modules/utilities" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/utilities/radarOsal_malloc.h" targetDirectory="common/dpu/capon3d/modules/utilities" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/utilities/radar_c674x.h" targetDirectory="common/dpu/capon3d/modules/utilities" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/utilities/radar_commonMath.h" targetDirectory="common/dpu/capon3d/modules/utilities" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <!-- Post Proc -->
+        <file path="common/dpu/capon3d/modules/postProcessing/matrixFunc/src/MATRIX_cholesky.c" targetDirectory="common/dpu/capon3d/modules/postProcessing/matrixFunc/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/postProcessing/matrixFunc/src/MATRIX_cholesky_dat.c" targetDirectory="common/dpu/capon3d/modules/postProcessing/matrixFunc/src" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/postProcessing/matrixFunc/api/MATRIX_cholesky.h" targetDirectory="common/dpu/capon3d/modules/postProcessing/matrixFunc/api" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/dpu/capon3d/modules/postProcessing/matrixFunc/api/MATRIX_cholesky_dat.h" targetDirectory="common/dpu/capon3d/modules/postProcessing/matrixFunc/api" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+    </project>
+</projectSpec>

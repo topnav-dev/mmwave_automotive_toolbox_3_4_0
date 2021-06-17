@@ -1,0 +1,32 @@
+[
+	{
+		"name": "CAN SBL",
+		"categories": ["Labs"],
+		"mainCategories": [],
+		"subCategories": ["Labs"],
+		"resourceType": "categoryInfo",
+        "devices": ["AWR1843"]
+	},
+	
+	{
+		"name": "Developer's Guide",
+		"resourceType": "file",
+		"mainCategories": [],
+		"subCategories": ["Labs", "CAN SBL"],
+		"categories": ["Labs", "CAN SBL"],
+		"devices": ["AWR1843"],
+		"tags": [ "TBD" ],
+		"location": "../../lab0012_can_sbl/docs/AWR1843_Secondary_Bootloader.pdf"
+	},
+
+	{
+		"name": "Release Notes",
+		"resourceType": "file",
+		"mainCategories": [],
+		"subCategories": ["Labs", "CAN SBL"],
+		"categories": ["Labs", "CAN SBL"],
+		"devices": ["AWR1843"],
+		"tags": [ "TBD" ],
+		"location": "../../lab0012_can_sbl/docs/CANSBL_Release_Notes.pdf"
+	}
+]

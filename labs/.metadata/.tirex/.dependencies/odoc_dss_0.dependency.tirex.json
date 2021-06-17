@@ -1,0 +1,18 @@
+[
+    {
+        "files": [
+            "+dss_config_edma_util.c -> dss_config_edma_util.c",
+            "+dss_data_path.c -> dss_data_path.c",
+            "+dss_main.c -> dss_main.c",
+            "+dss_mmw.cfg -> dss_mmw.cfg",
+            "+dss_mmw.h -> dss_mmw.h",
+            "+dss_config_edma_util.h -> dss_config_edma_util.h",
+            "+dss_data_path.h -> dss_data_path.h",
+            "+dss_lvds_stream.h -> dss_lvds_stream.h",
+            "+dss_lvds_stream.c -> dss_lvds_stream.c",
+            "+dss_resources.h -> dss_resources.h",
+            "+../common/mmw_messages.h -> common/mmw_messages.h",
+            "+c674x_linker.cmd -> c674x_linker.cmd"
+        ]
+    }
+]

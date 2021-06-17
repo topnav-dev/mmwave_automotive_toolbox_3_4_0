@@ -1,0 +1,66 @@
+[
+
+	{
+        "name": "Obstacle Detection AoP",
+        "categories": ["Labs"],
+        "mainCategories": [],
+        "subCategories": ["Labs"],
+        "resourceType": "categoryInfo",
+        "location": "../../lab0014_obstacle_detection_aop/docs/ODSdemo_usersguide.html",
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+	
+    {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- DSS",
+        "description": "Obstacle Detection DSS",
+        "categories": ["Labs", "Obstacle Detection AoP"],
+        "mainCategories": [],
+        "resourceType": "project.ccs",
+        "location": "../../lab0014_obstacle_detection_aop/src/ods_aop_18xx_dss.projectspec",
+        "subCategories": ["Labs", "Obstacle Detection AoP"],
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+    {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- MSS",
+        "description": "Obstacle Detection MSS",
+        "categories": ["Labs", "Obstacle Detection AoP"],
+        "mainCategories": [],
+        "resourceType": "project.ccs",
+        "location": "../../lab0014_obstacle_detection_aop/src/ods_aop_18xx_mss.projectspec",
+        "subCategories": ["Labs", "Obstacle Detection AoP"],
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+    {
+        "name": "User's Guide",
+        "resourceType": "file",
+        "mainCategories": [],
+        "subCategories": ["Labs", "Obstacle Detection AoP"],
+        "categories": ["Labs", "Obstacle Detection AoP"],
+        "devices": ["IWR1642", "AWR1642"],
+        "tags": [ "TBD" ],
+        "location": "../../lab0014_obstacle_detection_aop/docs/ODSdemo_usersguide.html",
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+	
+    {
+        "name": "Release Notes",
+        "resourceType": "file",
+        "mainCategories": [],
+        "subCategories": ["Labs", "Obstacle Detection AoP"],
+        "categories": ["Labs", "Obstacle Detection AoP"],
+        "devices": ["IWR1642", "AWR1642"],
+        "tags": [ "TBD" ],
+        "location": "../../lab0014_obstacle_detection_aop/docs/ODS_AOP_3_0_Release_Notes.pdf",
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    }
+
+]

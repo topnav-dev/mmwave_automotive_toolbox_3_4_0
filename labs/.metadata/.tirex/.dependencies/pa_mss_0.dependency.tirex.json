@@ -1,0 +1,21 @@
+[
+    {
+        "files": [
+            "+mss/mss_main.c -> mss_main.c",
+            "+mss/mss_pa.cfg -> mss_pa.cfg",
+            "+mss/mss_pa.h -> mss_pa.h",
+            "+mss/mss_pa_cli.c -> mss_pa_cli.c",
+            "+common/cfg.c -> common/cfg.c",
+            "+common/mmw_config.h -> common/mmw_config.h",
+            "+common/mmw_messages.h -> common/mmw_messages.h",
+            "+common/mmw_output.h -> common/mmw_output.h",
+            "+common/pa_config_chirp_design_MRR80.h -> common/pa_config_chirp_design_MRR80.h",
+            "+common/pa_config_chirp_design_MRR120.h -> common/pa_config_chirp_design_MRR120.h",
+            "+common/pa_config_chirp_design_USRR20.h -> common/pa_config_chirp_design_USRR20.h",
+            "+common/pa_config_consts.h -> common/pa_config_consts.h",
+            "+common/pa_defines.h -> common/pa_defines.h",
+            "+mss/mss_pa_linker.cmd -> mss_pa_linker.cmd",
+            "+mss/r4f_linker.cmd -> r4f_linker.cmd"
+        ]
+    }
+]

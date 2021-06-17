@@ -1,0 +1,21 @@
+[
+    {
+        "files": [
+            "+mss/mss_main.c -> mss_main.c",
+            "+mss/cli.c -> cli.c",
+            "+mss/mss_mmw.h -> mss_mmw.h",
+            "+mss/sys_intvecs.asm -> sys_intvecs.asm",
+            "+mss/sys_startup.asm -> sys_startup.asm",
+            "+common/mmw_messages.h -> common/mmw_messages.h",
+            "+osal_nonos/DebugP_nonos.c -> osal_nonos/DebugP_nonos.c",
+            "+osal_nonos/HwiP_nonos.c -> osal_nonos/HwiP_nonos.c",
+            "+osal_nonos/SemaphoreP_nonos.c -> osal_nonos/SemaphoreP_nonos.c",
+            "+osal_nonos/MemoryP_nonos.c -> osal_nonos/MemoryP_nonos.c",
+            "+osal_nonos/Event_nonos.c -> osal_nonos/Event_nonos.c",
+            "+osal_nonos/Event_nonos.h -> osal_nonos/Event_nonos.h",
+            "+osal_nonos/sys_vim.c -> osal_nonos/sys_vim.c",
+            "+osal_nonos/sys_vim.h -> osal_nonos/sys_vim.h",
+            "+osal_nonos/reg_vim.h -> osal_nonos/reg_vim.h"
+        ]
+    }
+]

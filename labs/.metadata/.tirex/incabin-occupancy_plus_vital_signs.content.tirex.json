@@ -1,0 +1,82 @@
+[
+
+	{
+        "name": "Occupancy and Vital Signs Detection",
+        "description": "This lab demonstrates the use of mmWave technology to accurately detect slow motion characteristic of a life form and measure driver vital signs such as heart rate and breathing rate.",
+        "resourceType": "categoryInfo",
+        "categories": ["Labs", "*mmWave Incabin Sensing*"],
+        "mainCategories": [],
+        "subCategories": ["Labs", "*mmWave Incabin Sensing*"],
+        "location": "../../incabinsensing/occupancy_plus_vital_signs/docs/Occupancy_VitalSigns_Detection_User_Guide.html",
+        "devices": ["AWR1642", "IWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+    {
+      "advanced": { "overrideProjectSpecDeviceId": false },
+      "name": "User's Guide",
+      "description": "HTML User's Guide",
+      "resourceType": "file",
+      "categories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "mainCategories": [],
+      "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "location": "../../incabinsensing/occupancy_plus_vital_signs/docs/Occupancy_VitalSigns_Detection_User_Guide.html",
+      "devices": ["AWR1642", "IWR1642"],
+  "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+  },
+
+  {
+    "advanced": { "overrideProjectSpecDeviceId": false },
+    "name": "PC GUI",
+    "description": "MATLAB GUI",
+    "resourceType": "file.executable",
+    "categories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+    "mainCategories": [],
+    "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+    "location": "../../incabinsensing/occupancy_plus_vital_signs/gui/vod_vital_signs.exe",
+    "devices": ["AWR1642", "IWR1642"],
+	"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+    {
+      "advanced": { "overrideProjectSpecDeviceId": false },
+      "compiler": ["ccs"],
+      "name": "CCS Project -- MSS",
+      "description": "Occupancy and Vital Signs Detection MSS",
+      "resourceType": "project.ccs",
+      "categories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "mainCategories": [],
+      "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "location": "../../incabinsensing/occupancy_plus_vital_signs/src/vod_vital_signs_68xx_mss.projectspec",
+      "devices": ["AWR1642", "IWR1642"],
+  "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+  },
+	
+  {
+      "advanced": { "overrideProjectSpecDeviceId": false },
+      "compiler": ["ccs"],
+      "name": "CCS Project -- DSS",
+      "description": "Occupancy and Vital Signs Detection DSS",
+      "resourceType": "project.ccs",
+      "categories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "mainCategories": [],
+      "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "location": "../../incabinsensing/occupancy_plus_vital_signs/src/vod_vital_signs_68xx_dss.projectspec",
+      "devices": ["AWR1642", "IWR1642"],
+  "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+  },
+	
+  {
+      "advanced": { "overrideProjectSpecDeviceId": false },
+      "name": "Release Notes",
+      "description": "Occupancy and Vital Signs Detection Release Notes",
+      "resourceType": "file",
+      "categories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "mainCategories": [],
+      "subCategories": ["Labs", "*mmWave Incabin Sensing*", "Occupancy and Vital Signs Detection"],
+      "location": "../../incabinsensing/occupancy_plus_vital_signs/docs/Release_Notes.pdf",
+      "devices": ["AWR1642", "IWR1642"],
+  "license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+  }
+
+]

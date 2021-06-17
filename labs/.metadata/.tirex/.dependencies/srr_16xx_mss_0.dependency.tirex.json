@@ -1,0 +1,19 @@
+[
+    {
+        "files": [
+            "+mss/mss_main.c -> mss_main.c",
+            "+mss/mss_srr.cfg -> mss_srr.cfg",
+            "+mss/mss_srr.h -> mss_srr.h",
+            "+mss/mss_srr_cli.c -> mss_srr_cli.c",
+            "+common/cfg.c -> common/cfg.c",
+            "+common/mmw_messages.h -> common/mmw_messages.h",
+            "+common/srr_config_chirp_design_SRR80.h -> common/srr_config_chirp_design_SRR80.h",
+            "+common/srr_config_chirp_design_SRR120.h -> common/srr_config_chirp_design_SRR120.h",
+            "+common/srr_config_chirp_design_USRR20.h -> common/srr_config_chirp_design_USRR20.h",
+            "+common/srr_config_consts.h -> common/srr_config_consts.h",
+            "+common/srr_defines.h -> common/srr_defines.h",
+            "+mss/mss_srr_linker.cmd -> mss_srr_linker.cmd",
+            "+mss/r4f_linker.cmd -> r4f_linker.cmd"
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "files": [
+            "+dss/cplx_types.h -> cplx_types.h",
+            "+dss/dss_config_edma_util.c -> dss_config_edma_util.c",
+            "+dss/dss_config_edma_util.h -> dss_config_edma_util.h",
+            "+dss/dss_data_path.c -> dss_data_path.c",
+            "+dss/dss_data_path.h -> dss_data_path.h",
+            "+dss/dss_main.c -> dss_main.c",
+            "+dss/dss_mmw.h -> dss_mmw.h",
+            "+dss/dss_resources.h -> dss_resources.h",
+            "+dss/oddemo_heatmap.c -> oddemo_heatmap.c",
+            "+dss/oddemo_heatmap.h -> oddemo_heatmap.h",
+            "+dss/oddemo_feature.c -> oddemo_feature.c",
+            "+dss/oddemo_feature.h -> oddemo_feature.h",
+            "+dss/oddemo_decision.c -> oddemo_decision.c",
+            "+dss/oddemo_decision.h -> oddemo_decision.h",
+            "+dss/dss_mmw.cfg -> dss_mmw.cfg",
+            "+dss/radar_c674x.h -> radar_c674x.h",
+            "+dss/xwr16xx_cache.c -> xwr16xx_cache.c",
+            "+dss/xwr16xx_cache.h -> xwr16xx_cache.h",
+            "+dss/dss_68xx_linker.cmd -> dss_68xx_linker.cmd",
+            "+common/oddemo_common.h -> common/oddemo_common.h",
+            "+common/mmw_messages.h -> common/mmw_messages.h",
+            "+common/mmw_config.h -> common/mmw_config.h",
+            "+common/mmw_output.h -> common/mmw_output.h",
+            "+common/mmw_monitor.h -> common/mmw_monitor.h",
+            "+dss/c674x_18xx_linker.cmd -> c674x_18xx_linker.cmd"
+        ]
+    }
+]

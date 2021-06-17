@@ -1,0 +1,66 @@
+[
+
+	{
+        "name": "Object Data Over CAN",
+        "categories": ["Labs"],
+        "mainCategories": [],
+        "subCategories": ["Labs"],
+        "resourceType": "categoryInfo",
+        "location": "../../lab0005_object_data_over_can/docs/ObjectDataOverCAN_GettingStartedGuide.pdf",
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+	
+    {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- DSS",
+        "description": "Object Data Over CAN DSS",
+        "categories": ["Labs", "Object Data Over CAN"],
+        "mainCategories": [],
+        "resourceType": "project.ccs",
+        "location": "../../lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec",
+        "subCategories": ["Labs", "Object Data Over CAN"],
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+    {
+        "advanced": { "overrideProjectSpecDeviceId": false },
+        "compiler": ["ccs"],
+        "name": "CCS Project -- MSS",
+        "description": "Object Data Over CAN MSS",
+        "categories": ["Labs", "Object Data Over CAN"],
+        "mainCategories": [],
+        "resourceType": "project.ccs",
+        "location": "../../lab0005_object_data_over_can/odoc-target/mss/odoc_mss.projectspec",
+        "subCategories": ["Labs", "Object Data Over CAN"],
+        "devices": ["IWR1642", "AWR1642"],
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+
+    {
+        "name": "Getting Started Guide",
+        "resourceType": "file",
+        "mainCategories": [],
+        "subCategories": ["Labs", "Object Data Over CAN"],
+        "categories": ["Labs", "Object Data Over CAN"],
+        "devices": ["IWR1642", "AWR1642"],
+        "tags": [ "TBD" ],
+        "location": "../../lab0005_object_data_over_can/docs/ObjectDataOverCAN_GettingStartedGuide.pdf",
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    },
+	
+    {
+        "name": "Release Notes",
+        "resourceType": "file",
+        "mainCategories": [],
+        "subCategories": ["Labs", "Object Data Over CAN"],
+        "categories": ["Labs", "Object Data Over CAN"],
+        "devices": ["IWR1642", "AWR1642"],
+        "tags": [ "TBD" ],
+        "location": "../../lab0005_object_data_over_can/docs/ObjectDataOverCAN_Release_Notes.pdf",
+		"license": "../../../license/SRAS-3841-325565-v1-Radar_Demo_Clickwrap.pdf"
+    }
+
+]

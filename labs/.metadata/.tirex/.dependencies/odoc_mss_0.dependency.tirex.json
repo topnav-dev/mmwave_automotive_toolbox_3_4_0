@@ -1,0 +1,16 @@
+[
+    {
+        "files": [
+            "+mss_main.c -> mss_main.c",
+            "+mss_mmw.cfg -> mss_mmw.cfg",
+            "+mss_mmw.h -> mss_mmw.h",
+            "+mss_odoc_cli.c -> mss_odoc_cli.c",
+            "+cli.c -> cli.c",
+            "+cli.h -> cli.h",
+            "+cli_internal.h -> cli_internal.h",
+            "+cli_mmwave.c -> cli_mmwave.c",
+            "+../common/mmw_messages.h -> common/mmw_messages.h",
+            "+r4f_linker.cmd -> r4f_linker.cmd"
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "files": [
+            "+dss/clusteringDBscan.c -> clusteringDBscan.c",
+            "+dss/dss_config_edma_util.c -> dss_config_edma_util.c",
+            "+dss/dss_data_path.c -> dss_data_path.c",
+            "+dss/dss_main.c -> dss_main.c",
+            "+dss/Extended_Kalman_Filter_xyz.c -> Extended_Kalman_Filter_xyz.c",
+            "+dss/dss_srr.cfg -> dss_srr.cfg",
+            "+dss/dss_srr.h -> dss_srr.h",
+            "+dss/dss_config_edma_util.h -> dss_config_edma_util.h",
+            "+dss/dss_data_path.h -> dss_data_path.h",
+            "+dss/clusteringDBscan.h -> clusteringDBscan.h",
+            "+dss/EKF_XYZ_Consts.h -> EKF_XYZ_Consts.h",
+            "+dss/EKF_XYZ_Interface.h -> EKF_XYZ_Interface.h",
+            "+common/cfg.c -> common/cfg.c",
+            "+common/mmw_messages.h -> common/mmw_messages.h",
+            "+common/srr_config_chirp_design_SRR80.h -> common/srr_config_chirp_design_SRR80.h",
+            "+common/srr_config_chirp_design_SRR120.h -> common/srr_config_chirp_design_SRR120.h",
+            "+common/srr_config_chirp_design_USRR20.h -> common/srr_config_chirp_design_USRR20.h",
+            "+common/srr_config_consts.h -> common/srr_config_consts.h",
+            "+common/srr_defines.h -> common/srr_defines.h",
+            "+dss/dss_srr_linker.cmd -> dss_srr_linker.cmd",
+            "+dss/c674x_linker.cmd -> c674x_linker.cmd"
+        ]
+    }
+]

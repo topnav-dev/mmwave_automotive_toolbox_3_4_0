@@ -1,0 +1,26 @@
+[
+    {
+        "files": [
+            "+mss/mss_main.c -> mss_main.c",
+            "+mss/mss_gesture.cfg -> mss_gesture.cfg",
+            "+mss/mss_gesture.h -> mss_gesture.h",
+            "+mss/mss_gesture_cli.c -> mss_gesture_cli.c",
+            "+mss/gesture_utils.c -> gesture_utils.c",
+            "+common/gesture_messages.h -> common/gesture_messages.h",
+            "+common/gesture_config_consts.h -> common/gesture_config_consts.h",
+            "+common/gesture_config_chirp_design_activeMode.h -> common/gesture_config_chirp_design_activeMode.h",
+            "+common/gesture_config_chirp_design_idleMode.h -> common/gesture_config_chirp_design_idleMode.h",
+            "+common/gesture_defines.h -> common/gesture_defines.h",
+            "+common/cli.c -> common/cli.c",
+            "+include/detected_obj.h -> include/detected_obj.h",
+            "+include/mmw_config.h -> include/mmw_config.h",
+            "+include/mmw_output.h -> include/mmw_output.h",
+            "+mss/r4f_linker.cmd -> r4f_linker.cmd",
+            "+common/ANN/ANN_params_77Ghz.h -> common/ANN/ANN_params_77Ghz.h",
+            "+common/ANN/b0.h -> common/ANN/b0.h",
+            "+common/ANN/b1.h -> common/ANN/b1.h",
+            "+common/ANN/w0.h -> common/ANN/w0.h",
+            "+common/ANN/w1.h -> common/ANN/w1.h"
+        ]
+    }
+]
