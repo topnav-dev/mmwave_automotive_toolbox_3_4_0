@@ -19,6 +19,7 @@
             "+common/mrr_config_chirp_design_MRR120.h -> common/mrr_config_chirp_design_MRR120.h",
             "+common/mrr_config_chirp_design_USRR20.h -> common/mrr_config_chirp_design_USRR20.h",
             "+common/mrr_config_chirp_design_USRR30.h -> common/mrr_config_chirp_design_USRR30.h",
+            "+common/mrr_config_chirp_design_USRR50.h -> common/mrr_config_chirp_design_USRR50.h",
             "+common/mrr_config_consts.h -> common/mrr_config_consts.h",
             "+common/mrr_defines.h -> common/mrr_defines.h",
             "+common/detected_obj.h -> common/detected_obj.h",

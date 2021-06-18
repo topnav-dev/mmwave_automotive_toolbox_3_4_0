@@ -4,17 +4,8 @@ In project: labs/lab0002_short_range_radar/src/srr_16xx_dss.projectspec
 File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft32x32/c64P/gen_twiddle_fft32x32.c
 In project: labs/lab0002_short_range_radar/src/srr_16xx_dss.projectspec
 
-File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft16x16/c64P/gen_twiddle_fft16x16.c
-In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
-
-File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft32x32/c64P/gen_twiddle_fft32x32.c
-In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
-
-File not found: ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/demo/utils/rx_ch_bias_measure.c
-In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
-
-File not found: ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/demo/utils/mmwDemo_monitor.c
-In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
+File not found: DSPF_sp_fftSPxSP.h
+In project: labs/lab0004_obstacle_detection/src/odsdemo_16xx_dss.projectspec
 
 File not found: ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/demo/utils/rx_ch_bias_measure.c
 In project: labs/lab0006_nonos_oob_16xx/src/mmwNonOS_dss.projectspec
@@ -28,14 +19,23 @@ In project: labs/lab0006_nonos_oob_16xx/src/mmwNonOS_dss.projectspec
 File not found: C:/ti/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft32x32/c64P/gen_twiddle_fft32x32.c
 In project: labs/lab0006_nonos_oob_16xx/src/mmwNonOS_dss.projectspec
 
-File not found: DSPF_sp_fftSPxSP.h
-In project: labs/lab0004_obstacle_detection/src/odsdemo_16xx_dss.projectspec
-
 File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft16x16/c64P/gen_twiddle_fft16x16.c
 In project: labs/lab0007_medium_range_radar/src/mrr_dss.projectspec
 
 File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft32x32/c64P/gen_twiddle_fft32x32.c
 In project: labs/lab0007_medium_range_radar/src/mrr_dss.projectspec
+
+File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft16x16/c64P/gen_twiddle_fft16x16.c
+In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
+
+File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft32x32/c64P/gen_twiddle_fft32x32.c
+In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
+
+File not found: ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/demo/utils/rx_ch_bias_measure.c
+In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
+
+File not found: ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/demo/utils/mmwDemo_monitor.c
+In project: labs/lab0005_object_data_over_can/odoc-target/dss/odoc_dss.projectspec
 
 File not found: ${TI_PRODUCTS_DIR}/dsplib_c64Px_3_4_0_0/packages/ti/dsplib/src/DSP_fft16x16/c64P/gen_twiddle_fft16x16.c
 In project: labs/lab0009_multi-gesture-16xx/src/gest_dss.projectspec
@@ -63,6 +63,12 @@ In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_dsp/src/mmwav
 
 File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
 In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_dss.projectspec
+
+File not found: DSPF_sp_fftSPxSP.h
+In project: labs/lab0014_obstacle_detection_aop/src/ods_aop_18xx_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: labs/incabinsensing/incabin_gesture_sensing/src/multi_gesture_68xx_aop_dss.projectspec
 
 File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdetrangehwa/src/objdetrangehwa.c
 In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
@@ -93,6 +99,54 @@ In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_dsp/src/mmwav
 
 File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
 In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_dsp/src/mmwave_sdk_68xx_dsp_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/c674x_linker.cmd
+In project: labs/incabinsensing/incabin_gesture_sensing/src/multi_gesture_68xx_ods_dss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: labs/incabinsensing/incabin_gesture_sensing/src/multi_gesture_68xx_ods_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: labs/incabinsensing/incabin_gesture_sensing/src/multi_gesture_68xx_aop_mss.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdethwa/src/objectdetection.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/data_path.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/main.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_cli.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_lvds_stream.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw.cfg
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mss_mmw_linker.cmd
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/board/antenna_geometry.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_flash.c
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: labs/incabinsensing/single_row_occupancy/src/6443/single_row_occupancy_6443.projectspec
 
 File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdethwa/src/objectdetection.c
 In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
@@ -129,4 +183,43 @@ In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_hwa/src/mmwav
 
 File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
 In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_4/68xx_mmwave_sdk_hwa/src/mmwave_sdk_68xx_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/datapath/dpc/objectdetection/objdethwa/src/objectdetection.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/data_path.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/main.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_cli.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw_lvds_stream.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mmw.cfg
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/xwr64xx/mmw/mss_mmw_linker.cmd
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_rfparser.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_adcconfig.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_monitor.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/board/antenna_geometry.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/demo/utils/mmwdemo_flash.c
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
+
+File not found: COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr68xx/r4f_linker.cmd
+In project: mmwave_sdk_ccs_projects/mmwave_sdk_3_5/68xx_aop_mmwave_sdk_hwa/src/mmwave_sdk_68xx_aop_hwa.projectspec
 

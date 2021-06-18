@@ -1,0 +1,39 @@
+[
+    {
+        "files": [
+            "+dss/cplx_types.h -> cplx_types.h",
+            "+dss/dss_config_edma_util.c -> dss_config_edma_util.c",
+            "+dss/dss_config_edma_util.h -> dss_config_edma_util.h",
+            "+dss/dss_data_path.c -> dss_data_path.c",
+            "+dss/dss_data_path.h -> dss_data_path.h",
+            "+dss/dss_main.c -> dss_main.c",
+            "+dss/dss_mmw.h -> dss_mmw.h",
+            "+dss/dss_resources.h -> dss_resources.h",
+            "+dss/odsdemo_cfar.c -> odsdemo_cfar.c",
+            "+dss/odsdemo_cfar.h -> odsdemo_cfar.h",
+            "+dss/odsdemo_aoaEstBF2D.c -> odsdemo_aoaEstBF2D.c",
+            "+dss/odsdemo_aoaEstBF2D.h -> odsdemo_aoaEstBF2D.h",
+            "+dss/odsdemo_doppler.c -> odsdemo_doppler.c",
+            "+dss/odsdemo_doppler.h -> odsdemo_doppler.h",
+            "+dss/odsdemo_dopplerProc_priv.c -> odsdemo_dopplerProc_priv.c",
+            "+dss/odsdemo_dopplerProc_priv.h -> odsdemo_dopplerProc_priv.h",
+            "+dss/odsdemo_clusteringDBscan3D.c -> odsdemo_clusteringDBscan3D.c",
+            "+dss/odsdemo_clusteringDBscan3D.h -> odsdemo_clusteringDBscan3D.h",
+            "+dss/odsdemo_clusteringDBscan3D_priv.c -> odsdemo_clusteringDBscan3D_priv.c",
+            "+dss/odsdemo_clusteringDBscan3D_priv.h -> odsdemo_clusteringDBscan3D_priv.h",
+            "+dss/odsdemo_heatmap.c -> odsdemo_heatmap.c",
+            "+dss/odsdemo_heatmap.h -> odsdemo_heatmap.h",
+            "+dss/dss_mmw.cfg -> dss_mmw.cfg",
+            "+dss/radar_c674x.h -> radar_c674x.h",
+            "+dss/xwr16xx_cache.c -> xwr16xx_cache.c",
+            "+dss/xwr16xx_cache.h -> xwr16xx_cache.h",
+            "+dss/swpform.h -> swpform.h",
+            "+dss/dss_mmw_linker.cmd -> dss_mmw_linker.cmd",
+            "+common/odsdemo_common.h -> common/odsdemo_common.h",
+            "+common/mmw_messages.h -> common/mmw_messages.h",
+            "+common/mmw_config.h -> common/mmw_config.h",
+            "+common/mmw_output.h -> common/mmw_output.h",
+            "+dss/c674x_linker_ods.cmd -> c674x_linker_ods.cmd"
+        ]
+    }
+]
