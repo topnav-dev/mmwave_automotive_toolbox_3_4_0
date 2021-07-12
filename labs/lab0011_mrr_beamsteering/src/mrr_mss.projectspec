@@ -14,7 +14,7 @@
         preannouncebuildStep="Deleting old BIN format image"
         preBuildStep="rm -f ${PROJECT_ROOT}/${ProjName}.bin;"
         postannouncebuildStep="Preparing BIN format image"
-        postBuildStep="${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/out2rprc/out2rprc.exe ${ProjName}.xer4f ${ProjName}.bin; ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/multicore_image_generator/MulticoreImageGen.exe LE 37 0x00000008 xwr18xx_mrr_demo.bin 0x35510000 ${WORKSPACE_LOC}/mrr_18xx_mss/Debug/mrr_18xx_mss.bin 0xb5510000 ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/firmware/radarss/xwr18xx_radarss_rprc.bin 0xd5510000 ${WORKSPACE_LOC}/mrr_18xx_dss/Debug/mrr_18xx_dss.bin;${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/crc_multicore_image/crc_multicore_image.exe xwr18xx_mrr_demo.bin xwr18xx_mrr_demo.bin.tmp;${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/append_bin_crc/gen_bincrc32.exe xwr18xx_mrr_demo.bin"
+        postBuildStep="${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/out2rprc/out2rprc.exe ${ProjName}.xer4f ${ProjName}.bin; ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/multicore_image_generator/MulticoreImageGen LE 37 0x00000008 xwr18xx_mrr_demo.bin 0x35510000 ${WORKSPACE_LOC}/mrr_18xx_mss/Debug/mrr_18xx_mss.bin 0xb5510000 ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/firmware/radarss/xwr18xx_radarss_rprc.bin 0xd5510000 ${WORKSPACE_LOC}/mrr_18xx_dss/Debug/mrr_18xx_dss.bin;${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/crc_multicore_image/crc_multicore_image xwr18xx_mrr_demo.bin xwr18xx_mrr_demo.bin.tmp;${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/append_bin_crc/gen_bincrc32 xwr18xx_mrr_demo.bin"
         description="mrr_18xx Lab"
         launchWizard="false"
         configurations="Debug, Release"
@@ -61,7 +61,7 @@
 		-llibmailbox_xwr18xx.aer4f
         -llibpinmux_xwr18xx.aer4f
         -llibcrc_xwr18xx.aer4f
-		-llibDMA_xwr18xx.aer4f
+		-llibdma_xwr18xx.aer4f
         -llibuart_xwr18xx.aer4f
         -llibcanfd_xwr18xx.aer4f
         -llibmmwavelink_xwr18xx.aer4f

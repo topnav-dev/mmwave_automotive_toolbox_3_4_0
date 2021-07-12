@@ -56,7 +56,7 @@
         -llibmailbox_xwr18xx.aer4f
         -llibpinmux_xwr18xx.aer4f
         -llibcrc_xwr18xx.aer4f
-        -llibDMA_xwr18xx.aer4f
+        -llibdma_xwr18xx.aer4f
         -llibuart_xwr18xx.aer4f
         -llibmmwavelink_xwr18xx.aer4f
         -llibmmwave_xwr18xx.aer4f
